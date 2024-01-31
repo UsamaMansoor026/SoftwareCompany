@@ -1,0 +1,98 @@
+@media (max-width: 992px) {
+  #hero {
+    height: 920px;
+  }
+
+  .hero__right img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .hero__left .heading {
+    font-size: 60px;
+  }
+
+  .hero__left p {
+    font-size: 21px;
+  }
+
+  .btn__container {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  /*  */
+  .small_img {
+    display: none;
+  }
+
+  .img__wrapper {
+    margin-inline: 0px;
+  }
+
+  .img__wrapper img {
+    width: 100%;
+    height: 320px;
+  }
+
+  /*  */
+  .card__wrapper {
+    margin-block: 12px;
+  }
+
+  #output_img {
+    width: 100%;
+    height: 400px;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  /*  */
+  #features > h1,
+  .heading,
+  #contact > h1 {
+    font-size: 60px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  #features > h1,
+  .heading,
+  #contact > h1 {
+    font-size: 35px;
+  }
+
+  .work_heading {
+    font-size: 42px;
+  }
+
+  .para {
+    font-size: 12px;
+  }
+
+  .btn_3 {
+    padding: 15px !important;
+    font-size: 12px !important;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form > input,
+  form > textarea {
+    padding: 10px 12px;
+  }
+
+  .contact_btn {
+    width: 100%;
+    padding: 10px 0px !important;
+    border-radius: 8px !important;
+  }
+}
